@@ -1,6 +1,6 @@
 # **Team Evolution | HackNITR 2.0** :briefcase:
 
-## Track : Good for Social cause - MedIoT
+## Track : Good for Social cause - MedIoT :health_worker: :woman_health_worker:
 ![](https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/ClipartKey_2434520.png)
 ## Problem Statement :
 Rural and Remote residents encounter barriers to healthcare that restrain their ability to get the medical services they need. The problem of handling and keeping a note and regular monitoring is serious in India. Also, it has been continuously observed in no. of surveys that the nurses and doctors in India suffer through burnout due to heavy workload and hectic schedule, which is a matter of concern. The records of patients are not well-maintained on either grounds and hence seems to be a greater problem in the picture.
