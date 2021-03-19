@@ -7,6 +7,10 @@ Rural and Remote residents encounter barriers to healthcare that restrain their 
 
 Also, in the current synopsis, extremely transmittable diseases like COVID-19 have forced people to avail of home hospitalization and treatment and, that's why treating everyone in need of continuous monitoring and regular checkup is difficult. 
 
+<div>
+<img align="centre" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/tenor.gif" width="40%"/>
+</div>
+
 May it be a pandemic or the problem of distance, consulting a good doctor even for a regular checkup and urgent situations that need to be dealt with as soon as possible is a big issue. There's a need for proper management of a patient's historical record and, tracking of current health-stats is one of the challenges in front of the Medical System in India.
 
 Hence, a solution needs to be proposed that solves the problems efficiently and is even accessible to all.
