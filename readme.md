@@ -5,9 +5,9 @@
 ## Problem Statement :
 Rural and Remote residents encounter barriers to healthcare that restrain their ability to get the medical services they need. The problem of handling and keeping a note and regular monitoring is serious in India. Also, it has been continuously observed in no. of surveys that the nurses and doctors in India suffer through burnout due to heavy workload and hectic schedule, which is a matter of concern. The records of patients are not well-maintained on either grounds and hence seems to be a greater problem in the picture.
 
-Also, in the current synopsis, extremely transmittable diseases like COVID-19 have forced people to avail of home hospitalization and treatment and, that's why treating everyone in need of continuous monitoring and regular checkup is difficult. 
-
 <img align="right" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/tenor.gif" width="40%"/>
+
+Also, in the current synopsis, extremely transmittable diseases like COVID-19 have forced people to avail of home hospitalization and treatment and, that's why treating everyone in need of continuous monitoring and regular checkup is difficult. 
 
 May it be a pandemic or the problem of distance, consulting a good doctor even for a regular checkup and urgent situations that need to be dealt with as soon as possible is a big issue. There's a need for proper management of a patient's historical record and, tracking of current health-stats is one of the challenges in front of the Medical System in India.
 
