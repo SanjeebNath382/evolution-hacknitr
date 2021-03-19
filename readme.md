@@ -13,10 +13,10 @@ May it be a pandemic or the problem of distance, consulting a good doctor even f
 
 Hence, a solution needs to be proposed that solves the problems efficiently and is even accessible to all.
 
-## Why this issue?
+## Why this issue? :lock:
 India has a vital shortage of trained doctors universally when compared to the WHO recommended ratio. Additionally, with about 80 per cent of the medicinal workforce focused in the top 8-10 towns and treating only 28 per cent of the total residents, access to healthcare remains a hope for many. In rural India, a patient may have to travel to another city to meet a doctor. The necessity of time is to provide good quality healthcare and a home-monitored healthcare system, to minimize the workload on the medical workforce monitor and patients with low or mild problems remotely.
 
-## Objectives :
+## Objectives :  	:notebook_with_decorative_cover:
 - To connect patients in remote and rural areas with the best doctors of their choice.
 - To provide essential medical services at the lowest possible cost.
 - To provide a proper patient medical history management system.
@@ -25,7 +25,7 @@ India has a vital shortage of trained doctors universally when compared to the W
 - To promote technical job opportunities for people to work as an authorized user of the MedIoT kit.
 - To make the process of Policy claims easier for the patients, with all the legal procedure documents required for policy claims available online
 
-# **Solution :**
+# **Solution :**  	:key:
 
 ## **MedIoT**
 <img align="left" style="float=left;" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/bb0cc783196fa9b2119864ff90eb5702.gif" width="50%"/>
