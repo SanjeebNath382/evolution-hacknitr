@@ -49,3 +49,14 @@ The website offers people better access to healthcare support beyond their bound
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
+
+## Team Members - Domains
+1. Sanjeeb Nath - 3rd Year (Computer Science Engineering)  
+College : National Institute of Technolgy Raipur  
+Domain : Web Developer
+2. Aman Kumar Dewangan - 3rd Year (Electrical Engineering)  
+College : National Institute of Technolgy Raipur  
+Domain : IoT Developer
+3. Aryan Sarkar - 3rd Year (Information Technology Engineering)  
+College : National Institute of Technolgy Raipur  
+Domain : Web Developer
