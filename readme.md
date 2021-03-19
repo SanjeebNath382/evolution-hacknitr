@@ -30,7 +30,7 @@ India has a vital shortage of trained doctors universally when compared to the W
 ## **MedIoT**
 MedIoT is an IoT web-based Real-Time Health Monitoring and Medical Consultation System. 
 
-<img align="leftt" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/bb0cc783196fa9b2119864ff90eb5702.gif" width="40%"/>
+<img align="leftt" style="float=left;" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/bb0cc783196fa9b2119864ff90eb5702.gif" width="40%"/>
 
 The IoT system connects to the cloud that lets the authenticated person keep a real-time check on some basic parameters like Heart-Rate, Blood Pressure, Temperature, ECG Function, Glucose Level, Dissolved Oxygen Level, etc. Using Bio-Sensors and Microprocessor that transmits the data to Firebase and Udibots for storage in the database and henceforth is accessible by the authenticated person(doctor and the user).
 
