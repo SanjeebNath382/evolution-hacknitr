@@ -43,4 +43,4 @@ The website offers people better access to healthcare support beyond their bound
 ![Firebase](https://img.shields.io/badge/Firebase-ffcb2c?style=flat-square&logo=Firebase&logoColor=DD1100)
 ![Udibots](https://img.shields.io/badge/Udibots-003E54?style=flat-square&logo=SmartThings&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
-Xampp Server
+![XAMPP Server](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=XAMPP&logoColor=white)
