@@ -5,7 +5,7 @@
 ## Problem Statement :
 Rural and Remote residents encounter barriers to healthcare that restrain their ability to get the medical services they need. The problem of handling and keeping a note and regular monitoring is serious in India. Also, it has been continuously observed in no. of surveys that the nurses and doctors in India suffer through burnout due to heavy workload and hectic schedule, which is a matter of concern. The records of patients are not well-maintained on either grounds and hence seems to be a greater problem in the picture.
 
-<img align="right" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/hospital.gif" width="50%"/>
+<img align="right" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/hospital.gif" width="45%"/>
 
 Also, in the current synopsis, extremely transmittable diseases like COVID-19 have forced people to avail of home hospitalization and treatment and, that's why treating everyone in need of continuous monitoring and regular checkup is difficult. 
 
@@ -28,7 +28,7 @@ India has a vital shortage of trained doctors universally when compared to the W
 # **Solution :**
 
 ## **MedIoT**
-<img align="left" style="float=left;" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/bb0cc783196fa9b2119864ff90eb5702.gif" width="60%"/>
+<img align="left" style="float=left;" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/bb0cc783196fa9b2119864ff90eb5702.gif" width="50%"/>
 MedIoT is an IoT web-based Real-Time Health Monitoring and Medical Consultation System.<br><br>
 
 The IoT system connects to the cloud that lets the authenticated person keep a real-time check on some basic parameters like Heart-Rate, Blood Pressure, Temperature, ECG Function, Glucose Level, Dissolved Oxygen Level, etc. Using Bio-Sensors and Microprocessor that transmits the data to Firebase and Udibots for storage in the database and henceforth is accessible by the authenticated person(doctor and the user).<br><br>
