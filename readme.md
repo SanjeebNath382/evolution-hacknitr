@@ -1,4 +1,4 @@
-# **Team Evloution | HackNITR 2.0**
+# **Team Evoloution | HackNITR 2.0**
 
 ## Track : Good for Social cause - MedIoT
 ![](https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/ClipartKey_2434520.png)
