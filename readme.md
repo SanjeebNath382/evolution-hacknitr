@@ -58,7 +58,7 @@ The Ideation Circuit structure consists of total 5 sensors which include an ECG 
 ## Business Model / StartUp Potential
 
 ## Team Members - Domains
-<img align="right" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/desk-loop.gif" width="50%"/>
+<img align="right" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/desk-loop.gif" width="40%"/>
 
 1. Sanjeeb Nath - 3rd Year (Computer Science Engineering)  
 College : National Institute of Technolgy Raipur  
