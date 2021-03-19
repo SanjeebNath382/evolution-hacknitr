@@ -28,10 +28,11 @@ India has a vital shortage of trained doctors universally when compared to the W
 # **Solution :**
 
 ## **MedIoT**
-MedIoT is an IoT web-based Real-Time Health Monitoring and Medical Consultation System. 
+<img align="left" style="float=left;" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/bb0cc783196fa9b2119864ff90eb5702.gif" width="35%"/>
+MedIoT is an IoT web-based Real-Time Health Monitoring and Medical Consultation System.<br><br>
 
-<img align="leftt" style="float=left;" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/bb0cc783196fa9b2119864ff90eb5702.gif" width="40%"/>
-
-The IoT system connects to the cloud that lets the authenticated person keep a real-time check on some basic parameters like Heart-Rate, Blood Pressure, Temperature, ECG Function, Glucose Level, Dissolved Oxygen Level, etc. Using Bio-Sensors and Microprocessor that transmits the data to Firebase and Udibots for storage in the database and henceforth is accessible by the authenticated person(doctor and the user).
+The IoT system connects to the cloud that lets the authenticated person keep a real-time check on some basic parameters like Heart-Rate, Blood Pressure, Temperature, ECG Function, Glucose Level, Dissolved Oxygen Level, etc. Using Bio-Sensors and Microprocessor that transmits the data to Firebase and Udibots for storage in the database and henceforth is accessible by the authenticated person(doctor and the user).<br><br>
 
 The website offers people better access to healthcare support beyond their bounds of convenience and connects them to doctors, specialists and healthcare experts on a digital platform, which provides them access to an online expert without a physical visit. For doctors, it includes a feature to view-track the medical record of the patient regularly and efficiently.
+
+## Features of the proposed MedIoT :
