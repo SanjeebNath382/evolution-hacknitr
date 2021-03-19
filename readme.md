@@ -38,9 +38,9 @@ The website offers people better access to healthcare support beyond their bound
 ## Features of MedIoT :
 
 ## Tech Stack be used :
-1. Python
-2. PHP
-3. Firebase
-4. Udibots IoT Platfoorm
-5. MySQL
+1. Python ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+2. PHP ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+3. Firebase ![Firebase](https://img.shields.io/badge/Firebase-ffcb2c?style=flat-square&logo=Firebase&logoColor=DD1100)
+4. Udibots IoT Platfoorm ![Udibots](https://img.shields.io/badge/SmartThings-777BB4?style=flat-square&logo=Udibots&logoColor=white)
+5. MySQL ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
 6. Xampp Server
