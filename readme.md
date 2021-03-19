@@ -1,4 +1,7 @@
 # **Team Evolution | HackNITR 2.0** :briefcase:
+<a href="https://github.com/amandewatnitrr/evolution-hacknitr/tree/main/IoT">
+  <img alt="IoT" width="100px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
+</a>
 
 ## Track : Good for Social cause - MedIoT :woman_health_worker:
 ![](https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/ClipartKey_2434520.png)
