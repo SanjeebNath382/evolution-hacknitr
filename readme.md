@@ -38,7 +38,7 @@ The website offers people better access to healthcare support beyond their bound
 ## Features of MedIoT :
 
 ## Tech Stack be used :
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-9FEF00?style=flat-square&logo=Python&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-ffcb2c?style=flat-square&logo=Firebase&logoColor=DD1100)
 ![Udibots](https://img.shields.io/badge/Udibots-003E54?style=flat-square&logo=SmartThings&logoColor=white)
