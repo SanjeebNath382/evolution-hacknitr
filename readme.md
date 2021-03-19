@@ -50,6 +50,8 @@ The website offers people better access to healthcare support beyond their bound
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
 
+## Business Model / StartUp Potential
+
 ## Team Members - Domains
 1. Sanjeeb Nath - 3rd Year (Computer Science Engineering)  
 College : National Institute of Technolgy Raipur  
