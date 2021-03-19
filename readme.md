@@ -24,3 +24,12 @@ India has a vital shortage of trained doctors universally when compared to the W
 - To evolve, innovate and renovate the concept of Tele-medicine using IoT.
 - To promote technical job opportunities for people to work as an authorized user of the MedIoT kit.
 - To make the process of Policy claims easier for the patients, with all the legal procedure documents required for policy claims available online
+
+# **Solution :**
+
+## **MedIoT**
+MedIoT is an IoT web based Real-Time Health Monitoring and Medical Consultation System. 
+
+The IoT system is connected to the cloud that let’s the users keep real time check on some basic parameters like: Heart-Rate, Blood Pressure, Temperature, ECG Function, Glucose Level, Dissolved Oxygen Level etc. using Bio-Sensors that transmits the data to Firebase and Udibots for storage in database and henceforth can be accessed by the authenticated person(doctor and the user).
+
+The website offers people to have a better access to healthcare resources beyond their boundaries of accessibility and connect them to doctors, specialists and healthcare experts on a digital platform, which provides them access to an online consultant without a physical visit. For the doctors, It also includes the feature to view-track the medical record of the patient regularly and efficiently.
