@@ -85,7 +85,7 @@ def update_database():
         print('Failed to get reading. Try again!')    
   
     data = {"temp": sensor.read_temperature(), "pressure": sensor.read_pressure(), "oxysat": oxi_level}  
-    firebase.post('/sensor/dht', data)
+    firebase.post('/sensor/mediot', data)
     time.sleep(1);
     
 while True:  
