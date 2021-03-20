@@ -56,7 +56,8 @@ payload = {VARIABLE_LABEL_1: value_1,VARIABLE_LABEL_2: value_2,VARIABLE_LABEL_3:
 9. Now, open your firbase console.
 10. Create a real-time database and, than look for a similar URL as shown below:
 ```python3
-DSN = 'https://hacknitr-c0c75-default-rtdb.firebaseio.com/' # 'https://myapp.firebaseio.com/'
+DSN = 'https://hacknitr-c0c75-default-rtdb.firebaseio.com/' # 'https://myapp.firebaseio.com/' (LINE 20)
 
 # Replace it with the one you created.
+firebase = firebase.FirebaseApplication(DSN) (LINE 25)
 ```
