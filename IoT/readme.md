@@ -11,6 +11,7 @@
 5. I2C Bus if using more than 1 I2C based Sensors.
 
 ## CAD Model of the MedIoT Kit
+The files cannot be shared as they are subjected for confidential research purpose.
 <p align="center">
   <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/isometric_box.png">
   <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/top_box.png"><br>
