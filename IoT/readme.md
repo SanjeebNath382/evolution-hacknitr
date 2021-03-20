@@ -61,3 +61,10 @@ DSN = 'https://hacknitr-c0c75-default-rtdb.firebaseio.com/' # 'https://myapp.fir
 # Replace it with the one you created.
 firebase = firebase.FirebaseApplication(DSN) (LINE 25)
 ```
+11. 
+```python3
+# Create a dictionary, that stores a relevant name of information being sent along with the vallues.
+data = {"temp": sensor.read_temperature(), "pressure": sensor.read_pressure(), "oxysat": oxi_level}  
+firebase.post('/sensor/mediot', data) #Edit the nodes as you want them to appear on the firebase
+# Also, keep this in consideration that each time we push the data, a new node will be created which is a bit problem of concern, but can be rectified.
+```
