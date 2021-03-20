@@ -7,6 +7,6 @@
 1. Clone this repository on your raspberry pi.
 2. Move to the IoT folder
 3. Use the below command to install all the required libraries
-```python
+```pip
 pip3 install -r requirements.txt 
 ```
