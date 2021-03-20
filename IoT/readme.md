@@ -4,7 +4,7 @@
 </p>
 
 ```
-python:
+python
 
 DSN = 'https://hacknitr-c0c75-default-rtdb.firebaseio.com/' # 'https://myapp.firebaseio.com/'
 　
