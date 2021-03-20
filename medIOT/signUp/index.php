@@ -46,7 +46,7 @@
     <link href="css/main.css" rel="stylesheet" media="all">
 </head>
 <?php
-    session_start();
+    
     if(isset($_POST['submit'])){
         require_once("../config.php");
 
@@ -58,6 +58,15 @@
         $phone = $_POST['phone'];
         $pass = $_POST['pass'];
         $uid= uniqid($fname);
+        $securepass= crypt($pass,$email);
+        $sql = "INSERT INTO users VALUES('$fname','$lname','$bday','$email','$phone','$securepass','$uid')";
+        if($con->query($sql)==true){
+            echo "<h3 style='margin-left:400px;margin-top:20px;color:green' >You have successfully registered<a href='../login/index.php'>Go back to Login Page</a></h3>";
+        }
+        else{
+            echo "ERROR: $con->error";
+        }
+        $con->close();
         
 
     }
@@ -106,7 +115,7 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h2 class="title">Registration Form</h2>
+                    <h2 class="title">User Registration Form</h2>
                     <form method="POST">
                         <div class="row row-space">
                             <div class="col-2">
@@ -129,6 +138,21 @@
                                     <div class="input-group-icon">
                                         <input class="input--style-4 js-datepicker" type="text" name="birthday">
                                         <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Gender</label>
+                                    <div class="p-t-10">
+                                        <label class="radio-container m-r-45">Male
+                                            <input type="radio" checked="checked" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Female
+                                            <input type="radio" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
                                 </div>
                             </div>
