@@ -34,7 +34,8 @@ VARIABLE_LABEL_2 = "oxy"  # Put your second variable label here
 VARIABLE_LABEL_3 = "pressure"  # Put your second variable label here
 VARIABLE_LABEL_4 = "temp"  # Put your second variable label here
 
-# Similarly you can create more variables in the same manner, but be careful that it should be same as the API Label of Variable on Udibots.
+# Similarly you can create more variables in the same manner, but be careful that it should be same as the 
+#API Label of Variable on Udibots.
 ```
 7. Now, create a dictionary as shown below:
 ```python3
