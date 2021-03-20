@@ -22,6 +22,7 @@ The files cannot be shared as they are subjected for confidential research purpo
 <p align="center">
   <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/Screenshot%202021-03-20%20150910.png">
   <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/Screenshot%202021-03-20%20151004.png">
+  <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/IMG20200820035139.jpg">
 </p>
 
 ## Setting Up the Raspberry Pi
