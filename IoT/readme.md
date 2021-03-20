@@ -12,9 +12,9 @@
 
 ## CAD Model of the MedIoT Kit
 <p align="center">
-  <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/WhatsApp%20Image%202021-03-20%20at%2013.16.06.jpeg">
   <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/isometric_box.png">
-  <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/top_box.png">
+  <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/top_box.png"><br>
+  <img width="40%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/WhatsApp%20Image%202021-03-20%20at%2013.16.06.jpeg">
 </p>
 
 ## Setting Up the Raspberry Pi
