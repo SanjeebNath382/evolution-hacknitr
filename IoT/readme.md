@@ -8,6 +8,7 @@
 2. Analog to Digital Converter(ADC)
 3. Voltage Level Converter
 4. Sensors("We used BMP085 and Pulse Oximeter for this purpose.")
+5. I2C Bus if using more than 1 I2C based Sensors.
 
 
 ## Setting Up the Raspberry Pi
