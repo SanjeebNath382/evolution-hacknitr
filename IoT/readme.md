@@ -44,3 +44,5 @@ payload = {VARIABLE_LABEL_1: value_1,VARIABLE_LABEL_2: value_2,VARIABLE_LABEL_3:
 # The Variable Labels has already been set, the 'value_1' and others store the data obtained from the sensors.
 ```
 8. Now, the code is **configured and ready to work with Udibots**.
+
+**No, let's configure the Firebase part -> **
