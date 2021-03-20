@@ -53,3 +53,8 @@ payload = {VARIABLE_LABEL_1: value_1,VARIABLE_LABEL_2: value_2,VARIABLE_LABEL_3:
 8. Now, the code is **configured and ready to work with Udibots**.
 
 **Now, let's configure the code to work with Firebase**
+9. Now, open your firbase console.
+10. Create a real-time database and, than look for a similar URL as shown below:
+```python3
+DSN = 'https://hacknitr-c0c75-default-rtdb.firebaseio.com/' # 'https://myapp.firebaseio.com/'
+```
