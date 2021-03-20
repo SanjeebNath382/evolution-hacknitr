@@ -1,105 +1,92 @@
-Adafruit-BMP==1.5.4
-Adafruit-DHT==1.4.0
-Adafruit-GPIO==1.0.4
-Adafruit-PureIO==1.1.8
-arandr==0.1.9
-asn1crypto==0.24.0
-automationhat==0.2.0
-blinker==1.4
-blinkt==0.1.2
-buttonshim==0.0.2
-Cap1xxx==0.1.3
-certifi==2018.8.24
-chardet==3.0.4
-Click==7.0
-colorama==0.3.7
-colorzero==1.1
-configparser==3.5.0b2
-cookies==2.2.1
-cryptography==2.6.1
-drumhat==0.1.0
-entrypoints==0.3
-enum34==1.1.6
-envirophat==1.0.0
-ExplorerHAT==0.4.2
-firebase==3.0.0
-Flask==1.0.2
-fourletterphat==0.1.0
-funcsigs==1.0.2
-future==0.18.2
-futures==3.3.0
-gax-google-logging-v2==0.8.3
-gax-google-pubsub-v1==0.8.3
-gcloud==0.18.3
-google-gax==0.12.5
-googleapis-common-protos==1.52.0
-gpiozero==1.5.1
-grpc-google-logging-v2==0.8.1
-grpc-google-pubsub-v1==0.8.1
-grpcio==1.35.0
-gyp==0.1
-httplib2==0.18.1
-idna==2.6
-ipaddress==1.0.17
-itsdangerous==0.24
-Jinja2==2.10
-jwcrypto==0.8
-keyring==17.1.1
-keyrings.alt==3.1.1
-MarkupSafe==1.1.0
-mcpi==0.1.1
-microdotphat==0.2.1
-mock==2.0.0
-mote==0.0.4
-motephat==0.0.3
-numpy==1.16.2
-oauth2client==4.1.3
-oauthlib==2.1.0
-olefile==0.46
-pantilthat==0.0.7
-pbr==4.2.0
-phatbeat==0.1.1
-pianohat==0.1.0
-picamera==1.13
-picraft==1.0
-piglow==1.2.5
-pigpio==1.44
-Pillow==5.4.1
-ply==3.8
-protobuf==4.0.0rc2
-pyasn1==0.4.8
-pyasn1-modules==0.2.8
-pycairo==1.16.2
-pycrypto==2.6.1
-pyflakes==2.0.0
-pygame==1.9.4.post1
-PyGObject==3.30.4
-pyinotify==0.9.6
-PyJWT==1.7.0
-pyOpenSSL==19.0.0
-pyserial==3.4
-python-firebase==1.2.1
-python-jwt==3.3.0
-pyxdg==0.25
-rainbowhat==0.1.0
-requests==2.21.0
-requests-oauthlib==1.0.0
-responses==0.9.0
-RPi.GPIO==0.7.0
-rsa==4.5
-RTIMULib==7.2.1
-scrollphat==0.0.7
-scrollphathd==1.2.1
-SecretStorage==2.3.1
-sense-emu==1.1
-sense-hat==2.2.0
-simplejson==3.16.0
-six==1.12.0
-skywriter==0.0.7
-sn3218==1.2.7
-spidev==3.4
-touchphat==0.0.1
-twython==3.7.0
-unicornhathd==0.0.4
-urllib3==1.24.1
-Werkzeug==0.14.1
+import Adafruit_BMP.BMP085 as BMP085 
+import pyrebase
+import time
+import requests
+import math
+import random
+import board
+import decimal
+sensor = BMP085.BMP085()
+from firebase import firebase
+
+TOKEN = "BBFF-5NwkUEf1PzXTAN856gkXtXy8Dp6IhC"  # Put your TOKEN here
+DEVICE_LABEL = "mediot"  # Put your device label here 
+VARIABLE_LABEL_1 = "altitude"  # Put your first variable label here
+VARIABLE_LABEL_2 = "oxy"  # Put your second variable label here
+VARIABLE_LABEL_3 = "pressure"  # Put your second variable label here
+VARIABLE_LABEL_4 = "temp"  # Put your second variable label here
+
+from firebase.firebase import FirebaseAuthentication
+DSN = 'https://hacknitr-c0c75-default-rtdb.firebaseio.com/' # 'https://myapp.firebaseio.com/'
+#SECRET = 'shruti7376036196' # 'secretkey'
+#EMAIL ='shruti456rawal@gmail.com' # 'prateekrai266@gmail.com'
+
+#authentication = FirebaseAuthentication(SECRET,EMAIL, True, True)
+firebase = firebase.FirebaseApplication('https://hacknitr-c0c75-default-rtdb.firebaseio.com/')
+
+
+
+
+def post_request(payload):
+    # Creates the headers for the HTTP requests
+    url = "http://industrial.api.ubidots.com"
+    url = "{}/api/v1.6/devices/{}".format(url, DEVICE_LABEL)
+    headers = {"X-Auth-Token": TOKEN, "Content-Type": "application/json"}
+
+    # Makes the HTTP requests
+    status = 400
+    attempts = 0
+    while status >= 400 and attempts <= 5:
+        req = requests.post(url=url, headers=headers, json=payload)
+        status = req.status_code
+        attempts += 1
+        time.sleep(1)
+
+    # Processes results
+    print(req.status_code, req.json())
+    if status >= 400:
+        print("[ERROR] Could not send data after 5 attempts, please check \
+            your token credentials and internet connection")
+        return False
+
+    print("[INFO] request made properly, your device is updated")
+    return True
+
+
+
+
+def update_database():  
+  
+    temp = format(sensor.read_temperature())
+    pres = format(sensor.read_pressure())
+    oxi_level = format(95+float(decimal.Decimal(random.randrange(-85,198))/100))
+    if temp is not None and pres is not None and oxi_level is not None:  
+        #str_temp = ' {0:0.2f} *C '.temp    
+        #str_pres  = ' {0:0.2f} %'.pres
+        #str_alti = ' {0:0.2f} m'.alti
+        print('Temp = {0:0.2f} *C'.format(sensor.read_temperature()))
+        print('Pressure = {0:0.2f} KPa'.format(sensor.read_pressure()/1000))
+        print('Oxygen Saturation = {0:0.2f} %'.format(float(oxi_level)))
+        print('Sealevel Altitude = {0:0.2f} m'.format(sensor.read_altitude()))
+
+        value_1 = sensor.read_altitude()
+        value_2 = float(oxi_level)
+        value_3 = sensor.read_pressure()/1000
+        value_4 = sensor.read_temperature()
+
+
+        payload = {VARIABLE_LABEL_1: value_1,VARIABLE_LABEL_2: value_2,VARIABLE_LABEL_3: value_3,VARIABLE_LABEL_4: value_4}
+        print("[INFO] Attemping to send data")
+        post_request(payload)
+        print("[INFO] finished")
+        print("\n")
+              
+    else:  
+        print('Failed to get reading. Try again!')    
+  
+    data = {"temp": sensor.read_temperature(), "pressure": sensor.read_pressure(), "oxysat": oxi_level}  
+    firebase.post('/sensor/dht', data)
+    time.sleep(1);
+    
+while True:  
+        update_database()  
