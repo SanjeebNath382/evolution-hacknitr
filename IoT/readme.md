@@ -70,7 +70,7 @@ auth = NULL;
 data = {"temp": sensor.read_temperature(), "pressure": sensor.read_pressure(), "oxysat": oxi_level} (LINE 87) 
 firebase.post('/sensor/mediot', data) #Edit the nodes as you want them to appear on the firebase (LINE 88)
 ```
-# No, you are ready to go ahead :smile:
+# Now, you are ready to go ahead :smile:
 <p align="center"> 
   <img width="70%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/b43db78f64c8e26fb580bb7f00b66222.gif">
 </p>
