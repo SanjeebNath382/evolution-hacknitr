@@ -22,11 +22,13 @@ pip3 install -r requirements.txt
 ```python3
 #For Udibots only
 
-TOKEN = "BBFF-5NwkUEf1PzXTAN856gkXtXy8Dp6IhC"  # Put your TOKEN here
-DEVICE_LABEL = "mediot"  # Put your device label here
+TOKEN = "BBFF-5NwkUEf1PzXTAN856gkXtXy8Dp6IhC"  # Put your TOKEN here (LINE 12)
+DEVICE_LABEL = "mediot"  # Put your device label here (LINE 13)
 ```
 6. Change the variable labels, to the one, you have created.
 ```python3
+(LINE 14 - 17)
+
 VARIABLE_LABEL_1 = "altitude"  # Put your first variable label here
 VARIABLE_LABEL_2 = "oxy"  # Put your second variable label here
 VARIABLE_LABEL_3 = "pressure"  # Put your second variable label here
@@ -34,4 +36,9 @@ VARIABLE_LABEL_4 = "temp"  # Put your second variable label here
 
 # Similarly you can cr4eate more variables in the same manner.
 ```
+7. Now, create a dictionary as shown below:
+```python3
+payload = {VARIABLE_LABEL_1: value_1,VARIABLE_LABEL_2: value_2,VARIABLE_LABEL_3: value_3,VARIABLE_LABEL_4: value_4}
 
+# The Variable Labels has already been set, the 'value_1' and others store the data obtained from the sensors.
+```
