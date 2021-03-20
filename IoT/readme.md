@@ -72,5 +72,5 @@ firebase.post('/sensor/mediot', data) #Edit the nodes as you want them to appear
 ```
 # No, you are ready to go ahead :smile:
 <p align="center"> 
-  <img width="100%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/b43db78f64c8e26fb580bb7f00b66222.gif">
+  <img width="70%" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/b43db78f64c8e26fb580bb7f00b66222.gif">
 </p>
