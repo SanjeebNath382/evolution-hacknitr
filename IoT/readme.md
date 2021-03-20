@@ -57,4 +57,6 @@ payload = {VARIABLE_LABEL_1: value_1,VARIABLE_LABEL_2: value_2,VARIABLE_LABEL_3:
 10. Create a real-time database and, than look for a similar URL as shown below:
 ```python3
 DSN = 'https://hacknitr-c0c75-default-rtdb.firebaseio.com/' # 'https://myapp.firebaseio.com/'
+
+# Replace it with the one you created.
 ```
