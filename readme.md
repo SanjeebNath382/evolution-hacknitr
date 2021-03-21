@@ -5,7 +5,7 @@
 <a href="https://github.com/SanjeebNath382/evolution-hacknitr/tree/main/medIOT">
   <img alt="Web" width="100px" src="https://img.shields.io/badge/Web-FB7A24?style=flat-square&logo=XAMPP&logoColor=white" />
 </a>
-[!Youtube Link](https://img.youtube.com/vi/3Bi7_Ksgsnw/0.jpg)](https://www.youtube.com/watch?v=3Bi7_Ksgsnw)
+[!Youtube Link](https://www.youtube.com/watch?v=3Bi7_Ksgsnw)
 
 ## Track : Social Good/Open Innovation - MedIoT :woman_health_worker:
 ![](https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/ClipartKey_2434520.png)
