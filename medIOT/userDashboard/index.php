@@ -94,7 +94,7 @@
     </div>
   </div>
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-924e"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Made By Team Shield<br>
+        <p class="u-small-text u-text u-text-variant u-text-1">Made By Team Evolution<br>
           <br>
         </p>
         <a href="https://github.com/amandewatnitrr" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1" target="_blank">Aman Dewangan</a>
