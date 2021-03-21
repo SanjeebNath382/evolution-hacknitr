@@ -64,6 +64,8 @@ The Ideation Circuit structure consists of total 5 sensors which include an ECG 
 
 ## Business Model / StartUp Potential  	:moneybag:
 
+MedIoT would be available both as a product and service for the customers. The customer will subscribe to our services. We would market our system to the general public and aware the doctors and medical fraternity of the benefits of our product. Our product is helful for all kinds of patients who aren't comfortable/able to visit the doctors/physicians physically. It is equally beneficial for the doctors. 
+
 ## Team Members - Domains :family_man_boy_boy:
 <img align="right" src="https://github.com/amandewatnitrr/evolution-hacknitr/blob/main/imgs/desk-loop.gif" width="40%"/>
 
