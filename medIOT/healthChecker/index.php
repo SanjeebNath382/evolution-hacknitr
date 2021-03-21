@@ -48,7 +48,7 @@
 </head>
 
 <body style="margin-top:150px;">
-<h1 style="margin-left:42%;color:#ff3256;font-family: Brush Script MT, Brush Script Std, cursive;font-size:20px"><b>Physical Health Checker</b></h1><br>
+<h1 style="margin-left:42%;color:#ff3256;font-size:20px"><b>Health Ailment Predicter</b></h1><br>
     <table class="container-table">
         <tr>
             <td valign="middle" colspan="2" class="td-header box-white bordered-box width50"><h4 class="header" id="selectSymptomsTitle"><span class="badge pull-left badge-primary visible-lg margin5R">1</span></h4></td>
